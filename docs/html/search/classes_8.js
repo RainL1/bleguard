@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['resultspanel_0',['ResultsPanel',['../classbleguard_1_1gui_1_1main__window_1_1ResultsPanel.html',1,'bleguard::gui::main_window']]]
+];

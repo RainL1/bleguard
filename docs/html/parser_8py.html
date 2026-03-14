@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BLEGuard: Файл bleguard/core/parser.py</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">BLEGuard<span id="projectnumber">&#160;2.0</span>
+   </div>
+   <div id="projectbrief">Анализатор безопасности Bluetooth Low Energy</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.15.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('parser_8py.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Файл parser.py</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Разбирает файлы захвата Bluetooth (BTSnoop и PCAP).  
+<a href="#details">Подробнее...</a></p>
+
+<p><a href="parser_8py_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:bleguard_2Ecore_2Eparser_2ESmpPairing" id="r_bleguard_2Ecore_2Eparser_2ESmpPairing"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">bleguard.core.parser.SmpPairing</a></td></tr>
+<tr class="memitem:bleguard_2Ecore_2Eparser_2ELeConnectionInfo" id="r_bleguard_2Ecore_2Eparser_2ELeConnectionInfo"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1LeConnectionInfo.html">bleguard.core.parser.LeConnectionInfo</a></td></tr>
+<tr class="memitem:bleguard_2Ecore_2Eparser_2EEncryptionInfo" id="r_bleguard_2Ecore_2Eparser_2EEncryptionInfo"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1EncryptionInfo.html">bleguard.core.parser.EncryptionInfo</a></td></tr>
+<tr class="memitem:bleguard_2Ecore_2Eparser_2EParseResult" id="r_bleguard_2Ecore_2Eparser_2EParseResult"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">bleguard.core.parser.ParseResult</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
+Пространства имен</h2></td></tr>
+<tr class="memitem:bleguard" id="r_bleguard"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard.html">bleguard</a></td></tr>
+<tr class="memitem:bleguard_2Ecore" id="r_bleguard_2Ecore"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core.html">bleguard.core</a></td></tr>
+<tr class="memitem:bleguard_2Ecore_2Eparser" id="r_bleguard_2Ecore_2Eparser"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html">bleguard.core.parser</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a0e51ac51252223cb98334aac4358edc4" id="r_a0e51ac51252223cb98334aac4358edc4"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a0e51ac51252223cb98334aac4358edc4">bleguard.core.parser._parse_address</a> (bytes raw)</td></tr>
+<tr class="memitem:a89f442ccb3481c7ac8f3acf033b0c707" id="r_a89f442ccb3481c7ac8f3acf033b0c707"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a89f442ccb3481c7ac8f3acf033b0c707">bleguard.core.parser._parse_btsnoop</a> (bytes data)</td></tr>
+<tr class="memitem:a14c9d9e4015a252f486aaf3d46d9b61b" id="r_a14c9d9e4015a252f486aaf3d46d9b61b"><td class="memItemLeft" align="right" valign="top">Optional[bytes]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a14c9d9e4015a252f486aaf3d46d9b61b">bleguard.core.parser._parse_btmon_packet</a> (bytes pkt)</td></tr>
+<tr class="memitem:a09bbed19fdcd7127b8225a2e637d286c" id="r_a09bbed19fdcd7127b8225a2e637d286c"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a09bbed19fdcd7127b8225a2e637d286c">bleguard.core.parser._parse_pcap</a> (bytes data)</td></tr>
+<tr class="memitem:a79029e9ca365800be85200f87358ec7f" id="r_a79029e9ca365800be85200f87358ec7f"><td class="memItemLeft" align="right" valign="top">Optional[<a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a79029e9ca365800be85200f87358ec7f">bleguard.core.parser._decode_smp</a> (int cid, bytes smp_data)</td></tr>
+<tr class="memitem:acfd588c875a98c8fb91ee2d9a2a7c8aa" id="r_acfd588c875a98c8fb91ee2d9a2a7c8aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#acfd588c875a98c8fb91ee2d9a2a7c8aa">bleguard.core.parser._try_parse_l2cap</a> (bytes payload)</td></tr>
+<tr class="memitem:aaa64a1d78b0515da3e1dcfb54848670e" id="r_aaa64a1d78b0515da3e1dcfb54848670e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#aaa64a1d78b0515da3e1dcfb54848670e">bleguard.core.parser.parse_capture</a> (str filepath)</td></tr>
+<tr class="memitem:ac70abf9562de2444d4361fa953fcbdd4" id="r_ac70abf9562de2444d4361fa953fcbdd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#ac70abf9562de2444d4361fa953fcbdd4">bleguard.core.parser._process_record</a> (bytes pkt, int flags, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a0c971946c8b837d5e518f604a39ced12" id="r_a0c971946c8b837d5e518f604a39ced12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a0c971946c8b837d5e518f604a39ced12">bleguard.core.parser._handle_hci_cmd</a> (int opcode, bytes params, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a7a25a7551b2600948785410ef332b189" id="r_a7a25a7551b2600948785410ef332b189"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a7a25a7551b2600948785410ef332b189">bleguard.core.parser._handle_le_enable_encryption</a> (bytes params, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a28eb98b6bca7410ba17fd164ed9fb154" id="r_a28eb98b6bca7410ba17fd164ed9fb154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a28eb98b6bca7410ba17fd164ed9fb154">bleguard.core.parser._handle_hci_evt</a> (int evt_code, bytes params, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:adb5bd2dcb91f641e4a7c53ec7f0dacae" id="r_adb5bd2dcb91f641e4a7c53ec7f0dacae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#adb5bd2dcb91f641e4a7c53ec7f0dacae">bleguard.core.parser._handle_hci_acl</a> (bytes payload, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:af28e01c8f4d97b43204fe2abab2a875e" id="r_af28e01c8f4d97b43204fe2abab2a875e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#af28e01c8f4d97b43204fe2abab2a875e">bleguard.core.parser._apply_smp</a> (<a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a> pairing, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a026c254dad278ef326e6e2bb5c060697" id="r_a026c254dad278ef326e6e2bb5c060697"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a026c254dad278ef326e6e2bb5c060697">bleguard.core.parser._finalize_key_size</a> (<a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Переменные</h2></td></tr>
+<tr class="memitem:a9830627b4326fecda8248d2f0226e2fd" id="r_a9830627b4326fecda8248d2f0226e2fd"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a9830627b4326fecda8248d2f0226e2fd">bleguard.core.parser.BTSNOOP_MAGIC</a> = b'btsnoop\x00'</td></tr>
+<tr class="memdesc:a9830627b4326fecda8248d2f0226e2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Магические байты в начале BTSnoop-файла.  <br /></td></tr>
+<tr class="memitem:a46803922fff77641d42003d5bcff7672" id="r_a46803922fff77641d42003d5bcff7672"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebleguard_1_1core_1_1parser.html#a46803922fff77641d42003d5bcff7672">bleguard.core.parser.BTSNOOP_VERSION</a> = 1</td></tr>
+<tr class="memdesc:a46803922fff77641d42003d5bcff7672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Поддерживается только версия 1 формата BTSnoop.  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Разбирает файлы захвата Bluetooth (BTSnoop и PCAP). </p>
+<p>Читает HCI-фреймы из файла и извлекает данные BLE-соединения, параметры сопряжения SMP и информацию о ключах шифрования.</p>
+<p>Поддерживаемые форматы:</p><ul>
+<li>BTSnoop (RFC 1761 / Android btsnoop_hci.log)</li>
+<li>PCAP (libpcap, прямой и обратный порядок байт)</li>
+</ul>
+<dl class="section author"><dt>Автор</dt><dd>RainL1 </dd></dl>
+<dl class="section version"><dt>Версия</dt><dd>2.0 </dd></dl>
+<dl class="section date"><dt>Дата</dt><dd>2026 </dd></dl>
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a></p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_95394c3cd0acf30d548fa68135397dd7.html">bleguard</a></li><li class="navelem"><a href="dir_c3078d228e3ffb127a172443328062de.html">core</a></li><li class="navelem"><a href="parser_8py.html">parser.py</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
+  </ul>
+</div>
+</body>
+</html>

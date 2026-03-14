@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BLEGuard: Класс bleguard.core.parser.ParseResult</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">BLEGuard<span id="projectnumber">&#160;2.0</span>
+   </div>
+   <div id="projectbrief">Анализатор безопасности Bluetooth Low Energy</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.15.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classbleguard_1_1core_1_1parser_1_1ParseResult.html','','classbleguard_1_1core_1_1parser_1_1ParseResult-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс bleguard.core.parser.ParseResult</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Статические открытые данные</h2></td></tr>
+<tr class="memitem:a042f2784ad45a3fff562689d8650dc50" id="r_a042f2784ad45a3fff562689d8650dc50"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a042f2784ad45a3fff562689d8650dc50">connection_type</a> = 'Unknown'</td></tr>
+<tr class="memitem:ac53bd83a165f172b40a04d5faae7031f" id="r_ac53bd83a165f172b40a04d5faae7031f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac53bd83a165f172b40a04d5faae7031f">is_ble</a> = False</td></tr>
+<tr class="memitem:aaddc8284bc0802e9639afbd3597161d4" id="r_aaddc8284bc0802e9639afbd3597161d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaddc8284bc0802e9639afbd3597161d4">is_classic_bt</a> = False</td></tr>
+<tr class="memitem:aed5d7b925c7a4b98be457ec2a5279979" id="r_aed5d7b925c7a4b98be457ec2a5279979"><td class="memItemLeft" align="right" valign="top">Optional&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed5d7b925c7a4b98be457ec2a5279979">connection</a> = None</td></tr>
+<tr class="memitem:ac88098d6b328bb5ea1530efc9af7b05d" id="r_ac88098d6b328bb5ea1530efc9af7b05d"><td class="memItemLeft" align="right" valign="top">Optional&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac88098d6b328bb5ea1530efc9af7b05d">pairing_request</a> = None</td></tr>
+<tr class="memitem:ab6ccedee2c37eab688ec106d97a79aee" id="r_ab6ccedee2c37eab688ec106d97a79aee"><td class="memItemLeft" align="right" valign="top">Optional&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6ccedee2c37eab688ec106d97a79aee">pairing_response</a> = None</td></tr>
+<tr class="memitem:a768db2aab33b04ddde3936ac7d1c4f7f" id="r_a768db2aab33b04ddde3936ac7d1c4f7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbleguard_1_1core_1_1parser_1_1EncryptionInfo.html">EncryptionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768db2aab33b04ddde3936ac7d1c4f7f">encryption</a> = field(default_factory=<a class="el" href="classbleguard_1_1core_1_1parser_1_1EncryptionInfo.html">EncryptionInfo</a>)</td></tr>
+<tr class="memitem:afb111717eb5b7cc72795ad28cf095a36" id="r_afb111717eb5b7cc72795ad28cf095a36"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb111717eb5b7cc72795ad28cf095a36">raw_records_count</a> = 0</td></tr>
+<tr class="memitem:ab9f7e63c1ccb8def6d2c0d0a638a34c0" id="r_ab9f7e63c1ccb8def6d2c0d0a638a34c0"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9f7e63c1ccb8def6d2c0d0a638a34c0">errors</a> = field(default_factory=list)</td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><pre class="fragment">@brief Результат разбора одного файла захвата.
+
+@var ParseResult.connection_type    Тип соединения: 'BLE', 'Classic Bluetooth (BR/EDR)' или 'Unknown'.
+@var ParseResult.is_ble             True, если найдены BLE-фреймы.
+@var ParseResult.is_classic_bt      True, если найдены фреймы классического Bluetooth.
+@var ParseResult.connection         Метаданные LE-соединения или None.
+@var ParseResult.pairing_request    Разобранный SMP Pairing Request или None.
+@var ParseResult.pairing_response   Разобранный SMP Pairing Response или None.
+@var ParseResult.encryption         Состояние шифрования.
+@var ParseResult.raw_records_count  Общее число HCI-записей в файле.
+@var ParseResult.errors             Список некритичных ошибок при разборе.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00138">138</a></p>
+</div><a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Данные класса</h2>
+<a id="aed5d7b925c7a4b98be457ec2a5279979" name="aed5d7b925c7a4b98be457ec2a5279979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5d7b925c7a4b98be457ec2a5279979">&#9670;&#160;</a></span>connection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Optional bleguard.core.parser.ParseResult.connection = None</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00155">155</a></p>
+
+</div>
+</div>
+<a id="a042f2784ad45a3fff562689d8650dc50" name="a042f2784ad45a3fff562689d8650dc50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042f2784ad45a3fff562689d8650dc50">&#9670;&#160;</a></span>connection_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">str bleguard.core.parser.ParseResult.connection_type = 'Unknown'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00152">152</a></p>
+
+</div>
+</div>
+<a id="a768db2aab33b04ddde3936ac7d1c4f7f" name="a768db2aab33b04ddde3936ac7d1c4f7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a768db2aab33b04ddde3936ac7d1c4f7f">&#9670;&#160;</a></span>encryption</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classbleguard_1_1core_1_1parser_1_1EncryptionInfo.html">EncryptionInfo</a> bleguard.core.parser.ParseResult.encryption = field(default_factory=<a class="el" href="classbleguard_1_1core_1_1parser_1_1EncryptionInfo.html">EncryptionInfo</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00158">158</a></p>
+
+</div>
+</div>
+<a id="ab9f7e63c1ccb8def6d2c0d0a638a34c0" name="ab9f7e63c1ccb8def6d2c0d0a638a34c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f7e63c1ccb8def6d2c0d0a638a34c0">&#9670;&#160;</a></span>errors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">list bleguard.core.parser.ParseResult.errors = field(default_factory=list)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00160">160</a></p>
+
+</div>
+</div>
+<a id="ac53bd83a165f172b40a04d5faae7031f" name="ac53bd83a165f172b40a04d5faae7031f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53bd83a165f172b40a04d5faae7031f">&#9670;&#160;</a></span>is_ble</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool bleguard.core.parser.ParseResult.is_ble = False</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00153">153</a></p>
+
+</div>
+</div>
+<a id="aaddc8284bc0802e9639afbd3597161d4" name="aaddc8284bc0802e9639afbd3597161d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaddc8284bc0802e9639afbd3597161d4">&#9670;&#160;</a></span>is_classic_bt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool bleguard.core.parser.ParseResult.is_classic_bt = False</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00154">154</a></p>
+
+</div>
+</div>
+<a id="ac88098d6b328bb5ea1530efc9af7b05d" name="ac88098d6b328bb5ea1530efc9af7b05d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88098d6b328bb5ea1530efc9af7b05d">&#9670;&#160;</a></span>pairing_request</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Optional bleguard.core.parser.ParseResult.pairing_request = None</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00156">156</a></p>
+
+</div>
+</div>
+<a id="ab6ccedee2c37eab688ec106d97a79aee" name="ab6ccedee2c37eab688ec106d97a79aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ccedee2c37eab688ec106d97a79aee">&#9670;&#160;</a></span>pairing_response</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Optional bleguard.core.parser.ParseResult.pairing_response = None</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00157">157</a></p>
+
+</div>
+</div>
+<a id="afb111717eb5b7cc72795ad28cf095a36" name="afb111717eb5b7cc72795ad28cf095a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb111717eb5b7cc72795ad28cf095a36">&#9670;&#160;</a></span>raw_records_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bleguard.core.parser.ParseResult.raw_records_count = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00159">159</a></p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>bleguard/core/<a class="el" href="parser_8py_source.html">parser.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespacebleguard.html">bleguard</a></li><li class="navelem"><a href="namespacebleguard_1_1core.html">core</a></li><li class="navelem"><a href="namespacebleguard_1_1core_1_1parser.html">parser</a></li><li class="navelem"><a href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
+  </ul>
+</div>
+</body>
+</html>

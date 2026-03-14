@@ -1,0 +1,709 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.15.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BLEGuard: Пространство имен bleguard.core.parser</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">BLEGuard<span id="projectnumber">&#160;2.0</span>
+   </div>
+   <div id="projectbrief">Анализатор безопасности Bluetooth Low Energy</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.15.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('namespacebleguard_1_1core_1_1parser.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Пространство имен bleguard.core.parser</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:SmpPairing" id="r_SmpPairing"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a></td></tr>
+<tr class="memitem:LeConnectionInfo" id="r_LeConnectionInfo"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1LeConnectionInfo.html">LeConnectionInfo</a></td></tr>
+<tr class="memitem:EncryptionInfo" id="r_EncryptionInfo"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1EncryptionInfo.html">EncryptionInfo</a></td></tr>
+<tr class="memitem:ParseResult" id="r_ParseResult"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a0e51ac51252223cb98334aac4358edc4" id="r_a0e51ac51252223cb98334aac4358edc4"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e51ac51252223cb98334aac4358edc4">_parse_address</a> (bytes raw)</td></tr>
+<tr class="memitem:a89f442ccb3481c7ac8f3acf033b0c707" id="r_a89f442ccb3481c7ac8f3acf033b0c707"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f442ccb3481c7ac8f3acf033b0c707">_parse_btsnoop</a> (bytes data)</td></tr>
+<tr class="memitem:a14c9d9e4015a252f486aaf3d46d9b61b" id="r_a14c9d9e4015a252f486aaf3d46d9b61b"><td class="memItemLeft" align="right" valign="top">Optional[bytes]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14c9d9e4015a252f486aaf3d46d9b61b">_parse_btmon_packet</a> (bytes pkt)</td></tr>
+<tr class="memitem:a09bbed19fdcd7127b8225a2e637d286c" id="r_a09bbed19fdcd7127b8225a2e637d286c"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09bbed19fdcd7127b8225a2e637d286c">_parse_pcap</a> (bytes data)</td></tr>
+<tr class="memitem:a79029e9ca365800be85200f87358ec7f" id="r_a79029e9ca365800be85200f87358ec7f"><td class="memItemLeft" align="right" valign="top">Optional[<a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a>]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79029e9ca365800be85200f87358ec7f">_decode_smp</a> (int cid, bytes smp_data)</td></tr>
+<tr class="memitem:acfd588c875a98c8fb91ee2d9a2a7c8aa" id="r_acfd588c875a98c8fb91ee2d9a2a7c8aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfd588c875a98c8fb91ee2d9a2a7c8aa">_try_parse_l2cap</a> (bytes payload)</td></tr>
+<tr class="memitem:aaa64a1d78b0515da3e1dcfb54848670e" id="r_aaa64a1d78b0515da3e1dcfb54848670e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa64a1d78b0515da3e1dcfb54848670e">parse_capture</a> (str filepath)</td></tr>
+<tr class="memitem:ac70abf9562de2444d4361fa953fcbdd4" id="r_ac70abf9562de2444d4361fa953fcbdd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70abf9562de2444d4361fa953fcbdd4">_process_record</a> (bytes pkt, int flags, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a0c971946c8b837d5e518f604a39ced12" id="r_a0c971946c8b837d5e518f604a39ced12"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c971946c8b837d5e518f604a39ced12">_handle_hci_cmd</a> (int opcode, bytes params, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a7a25a7551b2600948785410ef332b189" id="r_a7a25a7551b2600948785410ef332b189"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a25a7551b2600948785410ef332b189">_handle_le_enable_encryption</a> (bytes params, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a28eb98b6bca7410ba17fd164ed9fb154" id="r_a28eb98b6bca7410ba17fd164ed9fb154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28eb98b6bca7410ba17fd164ed9fb154">_handle_hci_evt</a> (int evt_code, bytes params, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:adb5bd2dcb91f641e4a7c53ec7f0dacae" id="r_adb5bd2dcb91f641e4a7c53ec7f0dacae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb5bd2dcb91f641e4a7c53ec7f0dacae">_handle_hci_acl</a> (bytes payload, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:af28e01c8f4d97b43204fe2abab2a875e" id="r_af28e01c8f4d97b43204fe2abab2a875e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28e01c8f4d97b43204fe2abab2a875e">_apply_smp</a> (<a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a> pairing, <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+<tr class="memitem:a026c254dad278ef326e6e2bb5c060697" id="r_a026c254dad278ef326e6e2bb5c060697"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a026c254dad278ef326e6e2bb5c060697">_finalize_key_size</a> (<a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> result)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Переменные</h2></td></tr>
+<tr class="memitem:a9830627b4326fecda8248d2f0226e2fd" id="r_a9830627b4326fecda8248d2f0226e2fd"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9830627b4326fecda8248d2f0226e2fd">BTSNOOP_MAGIC</a> = b'btsnoop\x00'</td></tr>
+<tr class="memdesc:a9830627b4326fecda8248d2f0226e2fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Магические байты в начале BTSnoop-файла.  <br /></td></tr>
+<tr class="memitem:a46803922fff77641d42003d5bcff7672" id="r_a46803922fff77641d42003d5bcff7672"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46803922fff77641d42003d5bcff7672">BTSNOOP_VERSION</a> = 1</td></tr>
+<tr class="memdesc:a46803922fff77641d42003d5bcff7672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Поддерживается только версия 1 формата BTSnoop.  <br /></td></tr>
+</table>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Функции</h2>
+<a id="af28e01c8f4d97b43204fe2abab2a875e" name="af28e01c8f4d97b43204fe2abab2a875e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af28e01c8f4d97b43204fe2abab2a875e">&#9670;&#160;</a></span>_apply_smp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._apply_smp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a></td>          <td class="paramname"><span class="paramname"><em>pairing</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Сохраняет SMP PDU в нужное поле ParseResult.
+
+@param pairing  Декодированный SmpPairing.
+@param result   Строящийся ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00539">539</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00518">_handle_hci_acl()</a> и <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="a79029e9ca365800be85200f87358ec7f" name="a79029e9ca365800be85200f87358ec7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79029e9ca365800be85200f87358ec7f">&#9670;&#160;</a></span>_decode_smp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> Optional[<a class="el" href="classbleguard_1_1core_1_1parser_1_1SmpPairing.html">SmpPairing</a>] bleguard.core.parser._decode_smp </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>cid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>smp_data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Декодирует SMP Pairing Request/Response из L2CAP-данных.
+
+@param cid       Канал L2CAP; должен быть 0x0006.
+@param smp_data  Байты начиная с кода команды SMP.
+@return          Разобранный SmpPairing или None.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00253">253</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00518">_handle_hci_acl()</a> и <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="a026c254dad278ef326e6e2bb5c060697" name="a026c254dad278ef326e6e2bb5c060697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026c254dad278ef326e6e2bb5c060697">&#9670;&#160;</a></span>_finalize_key_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._finalize_key_size </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Определяет размер ключа из SMP PDU, если он ещё не известен.
+
+@details Порядок приоритета: явный key_size_bytes → max_key_size из request
+         → max_key_size из response → 16 (если LTK есть).
+
+@param result  ParseResult для обновления.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00553">553</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00298">parse_capture()</a>.</p>
+
+</div>
+</div>
+<a id="adb5bd2dcb91f641e4a7c53ec7f0dacae" name="adb5bd2dcb91f641e4a7c53ec7f0dacae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb5bd2dcb91f641e4a7c53ec7f0dacae">&#9670;&#160;</a></span>_handle_hci_acl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._handle_hci_acl </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>payload</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Разбирает ACL Data пакет в поисках SMP PDU на канале 0x0006.
+
+@param payload  Байты ACL после индикатора типа пакета.
+@param result   Строящийся ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00518">518</a></p>
+
+<p class="reference">Перекрестные ссылки <a class="el" href="parser_8py_source.html#l00539">_apply_smp()</a> и <a class="el" href="parser_8py_source.html#l00253">_decode_smp()</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="a0c971946c8b837d5e518f604a39ced12" name="a0c971946c8b837d5e518f604a39ced12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c971946c8b837d5e518f604a39ced12">&#9670;&#160;</a></span>_handle_hci_cmd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._handle_hci_cmd </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>opcode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Обрабатывает HCI Command.
+
+@details Распознаёт: 0x0405 BR/EDR Create Connection, 0x2019 LE Enable Encryption,
+         0x2006 LE Create Connection.
+
+@param opcode  16-битный код команды HCI.
+@param params  Параметры команды.
+@param result  Строящийся ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00423">423</a></p>
+
+<p class="reference">Перекрестные ссылки <a class="el" href="parser_8py_source.html#l00455">_handle_le_enable_encryption()</a> и <a class="el" href="parser_8py_source.html#l00163">_parse_address()</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="a28eb98b6bca7410ba17fd164ed9fb154" name="a28eb98b6bca7410ba17fd164ed9fb154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28eb98b6bca7410ba17fd164ed9fb154">&#9670;&#160;</a></span>_handle_hci_evt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._handle_hci_evt </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>evt_code</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Обрабатывает HCI Event.
+
+@details Распознаёт: 0x03 BR/EDR Connection Complete, 0x3E LE Meta
+         (подсобытие 0x01 — LE Connection Complete), 0x08 Encryption Change.
+
+@param evt_code  Код события.
+@param params    Параметры события.
+@param result    Строящийся ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00474">474</a></p>
+
+<p class="reference">Перекрестные ссылки <a class="el" href="parser_8py_source.html#l00163">_parse_address()</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="a7a25a7551b2600948785410ef332b189" name="a7a25a7551b2600948785410ef332b189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a25a7551b2600948785410ef332b189">&#9670;&#160;</a></span>_handle_le_enable_encryption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._handle_le_enable_encryption </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Извлекает LTK из команды LE Enable Encryption (0x2019).
+
+@param params  Байты параметров команды.
+@param result  Строящийся ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00455">455</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00423">_handle_hci_cmd()</a> и <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="a0e51ac51252223cb98334aac4358edc4" name="a0e51ac51252223cb98334aac4358edc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e51ac51252223cb98334aac4358edc4">&#9670;&#160;</a></span>_parse_address()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str bleguard.core.parser._parse_address </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>raw</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Преобразует 6-байтовый MAC в строку вида 'AA:BB:CC:DD:EE:FF'.
+
+@param raw  6 байт в порядке контроллера (little-endian).
+@return     Строка адреса.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00163">163</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00423">_handle_hci_cmd()</a> и <a class="el" href="parser_8py_source.html#l00474">_handle_hci_evt()</a>.</p>
+
+</div>
+</div>
+<a id="a14c9d9e4015a252f486aaf3d46d9b61b" name="a14c9d9e4015a252f486aaf3d46d9b61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14c9d9e4015a252f486aaf3d46d9b61b">&#9670;&#160;</a></span>_parse_btmon_packet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> Optional[bytes] bleguard.core.parser._parse_btmon_packet </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>pkt</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Извлекает HCI-полезную нагрузку из пакета PCAP с linktype 254 (btmon).
+
+@param pkt  Сырые байты пакета.
+@return     Байты HCI-полезной нагрузки или None, если opcode не поддерживается.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00200">200</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00217">_parse_pcap()</a>.</p>
+
+</div>
+</div>
+<a id="a89f442ccb3481c7ac8f3acf033b0c707" name="a89f442ccb3481c7ac8f3acf033b0c707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f442ccb3481c7ac8f3acf033b0c707">&#9670;&#160;</a></span>_parse_btsnoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> list bleguard.core.parser._parse_btsnoop </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Разбирает BTSnoop-файл и возвращает список кортежей (flags, payload).
+
+@param data  Содержимое файла в байтах.
+@return      Список кортежей (flags: int, packet: bytes).
+@throws ValueError  Если файл не является BTSnoop или версия не поддерживается.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00172">172</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00298">parse_capture()</a>.</p>
+
+</div>
+</div>
+<a id="a09bbed19fdcd7127b8225a2e637d286c" name="a09bbed19fdcd7127b8225a2e637d286c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09bbed19fdcd7127b8225a2e637d286c">&#9670;&#160;</a></span>_parse_pcap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> list bleguard.core.parser._parse_pcap </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Разбирает PCAP-файл и возвращает список кортежей (flags, payload).
+
+@param data  Содержимое файла в байтах.
+@return      Список кортежей (flags: int, packet: bytes).
+@throws ValueError  Если файл не является корректным PCAP.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00217">217</a></p>
+
+<p class="reference">Перекрестные ссылки <a class="el" href="parser_8py_source.html#l00200">_parse_btmon_packet()</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00298">parse_capture()</a>.</p>
+
+</div>
+</div>
+<a id="ac70abf9562de2444d4361fa953fcbdd4" name="ac70abf9562de2444d4361fa953fcbdd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70abf9562de2444d4361fa953fcbdd4">&#9670;&#160;</a></span>_process_record()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._process_record </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>pkt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Направляет HCI-запись в нужный обработчик по первому байту пакета.
+
+@param pkt     Байты HCI-пакета вместе с байтом-индикатором.
+@param flags   Флаги направления BTSnoop.
+@param result  Строящийся ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00347">347</a></p>
+
+<p class="reference">Перекрестные ссылки <a class="el" href="parser_8py_source.html#l00539">_apply_smp()</a>, <a class="el" href="parser_8py_source.html#l00253">_decode_smp()</a>, <a class="el" href="parser_8py_source.html#l00518">_handle_hci_acl()</a>, <a class="el" href="parser_8py_source.html#l00423">_handle_hci_cmd()</a>, <a class="el" href="parser_8py_source.html#l00474">_handle_hci_evt()</a>, <a class="el" href="parser_8py_source.html#l00455">_handle_le_enable_encryption()</a> и <a class="el" href="parser_8py_source.html#l00276">_try_parse_l2cap()</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00298">parse_capture()</a>.</p>
+
+</div>
+</div>
+<a id="acfd588c875a98c8fb91ee2d9a2a7c8aa" name="acfd588c875a98c8fb91ee2d9a2a7c8aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfd588c875a98c8fb91ee2d9a2a7c8aa">&#9670;&#160;</a></span>_try_parse_l2cap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bleguard.core.parser._try_parse_l2cap </td>
+          <td>(</td>
+          <td class="paramtype">bytes</td>          <td class="paramname"><span class="paramname"><em>payload</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Ищет L2CAP-фрейм внутри сырой HCI-полезной нагрузки.
+
+@details Перебирает до 6 смещений байт, проверяя длину L2CAP и CID.
+
+@param payload  Сырые байты HCI-пакета.
+@return         Кортеж (cid, smp_data) при успехе или (None, None).
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00276">276</a></p>
+
+<p class="reference">Используется в <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a id="aaa64a1d78b0515da3e1dcfb54848670e" name="aaa64a1d78b0515da3e1dcfb54848670e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa64a1d78b0515da3e1dcfb54848670e">&#9670;&#160;</a></span>parse_capture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classbleguard_1_1core_1_1parser_1_1ParseResult.html">ParseResult</a> bleguard.core.parser.parse_capture </td>
+          <td>(</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>filepath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">@brief Разбирает файл захвата BTSnoop или PCAP.
+
+@details Определяет формат по магическим байтам, затем обходит все HCI-записи.
+         Ошибки добавляются в ParseResult.errors без исключений.
+
+@param filepath  Путь к файлу захвата.
+@return          Заполненный ParseResult.
+</pre> 
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00298">298</a></p>
+
+<p class="reference">Перекрестные ссылки <a class="el" href="parser_8py_source.html#l00553">_finalize_key_size()</a>, <a class="el" href="parser_8py_source.html#l00172">_parse_btsnoop()</a>, <a class="el" href="parser_8py_source.html#l00217">_parse_pcap()</a> и <a class="el" href="parser_8py_source.html#l00347">_process_record()</a>.</p>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Переменные</h2>
+<a id="a9830627b4326fecda8248d2f0226e2fd" name="a9830627b4326fecda8248d2f0226e2fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9830627b4326fecda8248d2f0226e2fd">&#9670;&#160;</a></span>BTSNOOP_MAGIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">str bleguard.core.parser.BTSNOOP_MAGIC = b'btsnoop\x00'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Магические байты в начале BTSnoop-файла. </p>
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00020">20</a></p>
+
+</div>
+</div>
+<a id="a46803922fff77641d42003d5bcff7672" name="a46803922fff77641d42003d5bcff7672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46803922fff77641d42003d5bcff7672">&#9670;&#160;</a></span>BTSNOOP_VERSION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bleguard.core.parser.BTSNOOP_VERSION = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Поддерживается только версия 1 формата BTSnoop. </p>
+
+<p class="definition">См. определение в файле <a class="el" href="parser_8py_source.html">parser.py</a> строка <a class="el" href="parser_8py_source.html#l00023">23</a></p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespacebleguard.html">bleguard</a></li><li class="navelem"><a href="namespacebleguard_1_1core.html">core</a></li><li class="navelem"><a href="namespacebleguard_1_1core_1_1parser.html">parser</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.15.0 </li>
+  </ul>
+</div>
+</body>
+</html>
