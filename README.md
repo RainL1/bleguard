@@ -80,7 +80,7 @@ PYTHONPATH=. python3 bleguard/tests/run_tests.py
 
 ```
 bleguard/
-├── main.py                  # Точка входа
+├── main.py                  # запуск
 └── bleguard/
     ├── core/
     │   ├── parser.py        # Парсинг BTSnoop/PCAP, HCI, SMP пакетов
@@ -107,5 +107,5 @@ bleguard/
 ## Поддерживаемые ОС
 
 - Linux (Arch, Kali, Ubuntu, Astra Linux)
-- macOS
-- Windows
+- macOS (в включенным захватом)
+- Windows (с необходимыми дополнительными пакетами)
